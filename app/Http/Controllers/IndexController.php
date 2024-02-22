@@ -11,7 +11,7 @@ class IndexController extends Controller
     public function index()
     {
         $banners = Banner::all();
-        return view('pages.index', compact('banners')); //compact('banners'));
+        return view('pages .index', compact('banners')); //compact('banners'));
     }
 
 }
