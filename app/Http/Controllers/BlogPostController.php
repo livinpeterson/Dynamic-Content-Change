@@ -12,6 +12,6 @@ class BlogPostController extends Controller
     {
         $blogposts = BlogPost::all();
         $images = BlogPost::pluck('image')->toArray();
-        return view('pages.blogpost', compact('blogposts', 'images')); //compact('banners'));
+        return view('pages .blogpost', compact('blogposts', 'images')); //compact('banners'));
     }
 }
