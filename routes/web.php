@@ -28,13 +28,13 @@ Route::get('/portfolio', [PortfolioController::class,'portfolio'])->name('portfo
 Route::get('/blogpost', [BlogPostController::class,'blogpost'])->name('blogpost');
 
 Route::get('/about-us', function () {
-    return view('pages.about_us');
+    return view('pages .about_us');
 })->name('aboutus');
 
 Route::get('/team', function () {
-    return view('pages.team');
+    return view('pages .team');
 })->name('team');
 
 Route::get('/contact', function () {
-    return view('pages.contact');
+    return view('pages .contact');
 })->name('contact');
