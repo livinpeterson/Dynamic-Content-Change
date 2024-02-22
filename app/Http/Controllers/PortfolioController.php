@@ -12,6 +12,6 @@ class PortfolioController extends Controller
     {
         $portfolios = Portfolio::all();
         $images = Portfolio::pluck('image')->toArray();
-        return view('pages.portfolio', compact('portfolios', 'images')); //compact('banners'));
+        return view('pages .portfolio', compact('portfolios', 'images')); //compact('banners'));
     }
 }
