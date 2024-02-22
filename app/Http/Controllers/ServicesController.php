@@ -12,7 +12,7 @@ class ServicesController extends Controller
     {
         $services = Services::all();
         $images = Services::pluck('image')->toArray();
-        return view('pages.services', compact('services', 'images')); //compact('banners'));
+        return view('pages .services', compact('services', 'images')); //compact('banners'));
     }
 
 }
